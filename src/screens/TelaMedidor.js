@@ -181,9 +181,9 @@ const styles = StyleSheet.create({
   },
   bolhaInclinada: {
     backgroundColor: '#D97706',
-  },
-tagStatus: {
-  paddingVertical: 6,
+    },
+    tagStatus: {
+    paddingVertical: 6,
   paddingHorizontal: 14,
   borderRadius: 6,
   marginBottom: 16,
@@ -213,4 +213,62 @@ tabelaValores: {
   paddingVertical: 12,
   width: '100%',
   marginBottom: 16,
+    },
+colunaValor: {
+  flex: 1,
+  alignItems: 'center',
 },
+separadorColuna: {
+  width: 1,
+  backgroundColor: '#E5E7EB',
+},
+rotuloEixo: {
+  fontSize: 12,
+  color: '#6B7280',
+  fontWeight: '600',
+  marginBottom: 4,
+},
+valorEixo: {
+  fontSize: 16,
+  fontWeight: 'bold',
+  color: '#111827',
+},
+linhaBotoes: {
+  flexDirection: 'row',
+  width: '100%',
+  gap: 10,
+},
+botaoAcao: {
+  flex: 1,
+  paddingVertical: 12,
+  borderRadius: 6,
+  alignItems: 'center',
+},
+botaoPausar: {
+  backgroundColor: '#DC2626',
+},
+botaoRetomar: {
+  backgroundColor: '#2563EB',
+},
+botaoSalvar: {
+  backgroundColor: '#1F2937',
+},
+botaoAcaoTexto: {
+  color: '#FFFFFF',
+  fontWeight: 'bold',
+  fontSize: 14,
+},
+avisoErro: {
+  backgroundColor: '#FEE2E2',
+  padding: 16,
+  borderRadius: 8,
+  borderWidth: 1,
+  borderColor: '#FCA5A5',
+},
+avisoErroTexto: {
+  color: '#991B1B',
+  fontSize: 14,
+  textAlign: 'center',
+},
+});
+// FIM
